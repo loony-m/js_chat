@@ -5,6 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start:server": "./node_modules/.bin/static-server .",
+        "link": "./node_modules/.bin/eslint src/**/*.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -18,6 +19,8 @@
     },
     "homepage": "https://github.com/loony-m/chat#readme",
     "devDependencies": {
+        "eslint": "^6.5.1",
+        "eslint-plugin-react": "^7.15.1",
         "static-server": "^2.2.1"
     }
 }
