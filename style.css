@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box
+}
+*:focus {
+    outline: none
+}
+h1 {
+    text-align: center
+}
+.wrapper {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #e8e8e8; 
+}

@@ -1,0 +1,10 @@
+.chat {
+    
+}
+.chat__messages {
+    padding: 10px;
+    border-bottom: 1px solid #dadada;
+}
+.chat__messages:last-child {
+    border-bottom: 0;
+}
