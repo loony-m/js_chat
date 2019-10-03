@@ -1,3 +1,6 @@
-# development 
-## $ npm install 
-## $ npm run start:server
+## development 
+
+```
+$ npm install 
+$ npm run start:server
+```
