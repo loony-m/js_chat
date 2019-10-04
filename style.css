@@ -8,8 +8,7 @@ h1 {
     text-align: center
 }
 .wrapper {
-    max-width: 300px;
+    max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
     background: #e8e8e8; 
 }

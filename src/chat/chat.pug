@@ -1,0 +1,13 @@
+.chat
+    .chat_container
+        .header
+            h2 You are loggin in as...
+        .chat-box
+            each message in messages
+                .message-box.left-img
+                    .picture
+                        img(src='https://unsplash.it/200/200/?random')
+                        span.time= message.time
+                    .message
+                        span= message.name
+                        p= message.text

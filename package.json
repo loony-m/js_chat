@@ -6,6 +6,7 @@
     "scripts": {
         "start:server": "./node_modules/.bin/static-server .",
         "link": "./node_modules/.bin/eslint src/**/*.js",
+        "build:templates": "./node_modules/.bin/pug -c --name=chatTmpl  --extension=pug.js ./src/chat/chat.pug",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
@@ -21,6 +22,7 @@
     "devDependencies": {
         "eslint": "^6.5.1",
         "eslint-plugin-react": "^7.15.1",
+        "pug-cli": "^1.0.0-alpha6",
         "static-server": "^2.2.1"
     }
 }
